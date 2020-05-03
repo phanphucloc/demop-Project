@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<input [(ngModel)]="name" placeholder="xem thử....">
+<h2 class="high-light">Hello color host binding</h2>
+<Test [name]="name"></Test>
+<input hostTest type="text"/>
+<button (click)="test()">test change detection</button>
+
+<button (click)="onClick()">test cho zui</button>
+<button (click)="onClick2()">test cho zui 2</button>
